@@ -5,7 +5,9 @@
   }],
   "require": {
     "wpackagist-plugin/custom-post-type-ui": "1.8.0",
-    "wpackagist-theme/sempress": "1.6.2"
+    "wpackagist-plugin/webmention": "4.0.3",
+    "wpackagist-theme/sempress": "1.6.2",
+    "wpackagist-plugin/query-monitor": "^3.6"
   },
   "extra": {
     "installer-paths": {
