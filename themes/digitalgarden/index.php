@@ -20,9 +20,9 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
-
-			<h1><?php the_title(); ?></h1>
-
+            <div <?php post_class(); ?>>
+                <h2><a href="<?php echo esc_attr( get_the_permalink() ); ?>"><?php the_title(); ?></a></h2>
+            </div>
 			<?php endwhile; ?>
 
 		<?php endif; ?>
