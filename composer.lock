@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "671d5508c9235cdcd5dc05fa6ef43941",
+    "content-hash": "197f2cbe392b7b499cecdf9c7ab8d4a5",
     "packages": [
         {
             "name": "composer/installers",
@@ -181,15 +181,15 @@
         },
         {
             "name": "wpackagist-plugin/webmention",
-            "version": "4.0.3",
+            "version": "4.0.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/webmention/",
-                "reference": "tags/4.0.3"
+                "reference": "tags/4.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/webmention.4.0.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/webmention.4.0.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -199,15 +199,15 @@
         },
         {
             "name": "wpackagist-theme/sempress",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/sempress/",
-                "reference": "1.6.2"
+                "reference": "1.6.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/sempress.1.6.2.zip"
+                "url": "https://downloads.wordpress.org/theme/sempress.1.6.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
