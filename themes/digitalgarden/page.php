@@ -20,7 +20,7 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
-            <div <?php post_class(); ?>>
+            <div <?php post_class( 'plant' ); ?>>
                 <h2><?php the_title(); ?></h2>
                 <?php the_content(); ?>
 
@@ -30,8 +30,7 @@ get_header(); ?>
 						get_the_modified_date(),
 						get_the_modified_time()
                     );
-
-                    the_category();
+                    echo wpautop( 'Categories: ' . get_the_category_list( ', ', '', get_the_ID() ) );
                 ?>
             </div>
 			<?php endwhile; ?>

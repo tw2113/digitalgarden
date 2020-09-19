@@ -11,3 +11,48 @@
  * Tested up to: 5.5.
  * Requires PHP: 7.4
  */
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    /* #444 looks better than black*/
+     font-size: 62.5%; /*allows for Em usage. 1em = 10px and so on*/
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    color: #444;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+a {
+    transition:         color 0.3s;
+}
+
+#content {
+    border: solid green 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.plant {
+    flex: 1 1 25%;
+    margin: 10px;
+    padding: 10px;
+}
+.home .plant {
+    border: solid rgb(0,0,0) 3px;
+    border-radius: 10px;
+}
+
+.plant h2 {
+    margin-top: 0;
+}

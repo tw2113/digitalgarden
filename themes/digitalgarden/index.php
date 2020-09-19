@@ -20,7 +20,7 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
-            <div <?php post_class(); ?>>
+            <div <?php post_class( 'plant' ); ?>>
                 <h2><a href="<?php echo esc_attr( get_the_permalink() ); ?>"><?php the_title(); ?></a></h2>
             </div>
 			<?php endwhile; ?>
