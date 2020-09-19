@@ -15,6 +15,16 @@
 get_header(); ?>
 
 <section id="primary">
+
+    <div class="garden-categories">
+        <ul class="garden-list">
+            <?php wp_list_categories(
+                [
+                    'title_li' => '',
+                ]
+            ); ?>
+        </ul>
+    </div>
 	<main id="content" role="main">
 
 		<?php if ( have_posts() ) : ?>
