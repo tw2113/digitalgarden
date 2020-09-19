@@ -90,11 +90,11 @@ header a {
     flex: 1 1 25%;
     margin: 10px;
     padding: 10px;
-    text-align: center;
 }
 .home .plant {
     border: solid rgb(0,0,0) 3px;
     border-radius: 10px;
+    text-align: center;
 }
 
 .plant h2 {
