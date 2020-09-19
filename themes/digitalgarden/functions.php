@@ -18,8 +18,5 @@ function set_default_category( $id, $post ) {
 	$default = get_option( 'default_category' );
 
 	$result = wp_set_object_terms( $id, $default, 'category', true );
-	add_action('admin_notices', function() use ( $result ) {
-		var_dump($result);
-	});
 }
 add_action( 'publish_post', __NAMESPACE__ . '\set_default_category', 10, 2 );

@@ -14,6 +14,10 @@ function pages_on_frontpage( $query ) {
 	$query->set(
 		'post_type', [ 'page' ]
 	);
+
+	$query->set(
+		'posts_per_page', -1
+	);
 }
 add_action( 'pre_get_posts', __NAMESPACE__ . '\pages_on_frontpage' );
 
@@ -34,6 +38,10 @@ function tags_archives( $query ) {
 	) {
 		$query->set(
 			'post_type', [ 'page' ]
+		);
+
+		$query->set(
+			'posts_per_page', -1
 		);
 	}
 }
@@ -58,7 +66,9 @@ function category_archives( $query ) {
 			'post_type',
 			[ 'page' ]
 		);
+
+		$query->set(
+			'posts_per_page', -1
+		);
 	}
-
-
-} // category_archives
+}

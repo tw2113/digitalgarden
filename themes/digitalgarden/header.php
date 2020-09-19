@@ -11,3 +11,8 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
+<header>
+    <h1><a href="/">Digital Garden</a></h1>
+
+    <a href="<?php the_permalink( 41 ); ?>">What is this?</a>
+</header>
