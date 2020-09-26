@@ -72,3 +72,4 @@ function category_archives( $query ) {
 		);
 	}
 }
+add_action( 'pre_get_posts', __NAMESPACE__ . '\category_archives' );

@@ -91,7 +91,8 @@ header a {
     margin: 10px;
     padding: 10px;
 }
-.home .plant {
+.home .plant,
+.category .plant {
     border: solid rgb(0,0,0) 3px;
     border-radius: 10px;
     text-align: center;
