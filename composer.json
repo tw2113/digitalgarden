@@ -4,9 +4,8 @@
     "url": "https://wpackagist.org/"
   }],
   "require": {
-    "wpackagist-plugin/custom-post-type-ui": "1.8.0",
-    "wpackagist-plugin/webmention": "4.0.4",
-    "wpackagist-theme/sempress": "1.6.3",
+    "wpackagist-plugin/custom-post-type-ui": "1.8.1",
+    "wpackagist-plugin/webmention": "4.0.5",
     "wpackagist-plugin/query-monitor": "^3.6"
   },
   "extra": {

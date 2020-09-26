@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "197f2cbe392b7b499cecdf9c7ab8d4a5",
+    "content-hash": "a3e5b55b0bd8e64414f60daa229e52b7",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,15 +145,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.8.0",
+            "version": "1.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.8.0"
+                "reference": "tags/1.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.8.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.8.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -181,39 +181,21 @@
         },
         {
             "name": "wpackagist-plugin/webmention",
-            "version": "4.0.4",
+            "version": "4.0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/webmention/",
-                "reference": "tags/4.0.4"
+                "reference": "tags/4.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/webmention.4.0.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/webmention.4.0.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/webmention/"
-        },
-        {
-            "name": "wpackagist-theme/sempress",
-            "version": "1.6.3",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/sempress/",
-                "reference": "1.6.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/sempress.1.6.3.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/sempress/"
         }
     ],
     "packages-dev": [],
