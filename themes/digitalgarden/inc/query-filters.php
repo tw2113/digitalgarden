@@ -73,3 +73,25 @@ function category_archives( $query ) {
 	}
 }
 add_action( 'pre_get_posts', __NAMESPACE__ . '\category_archives' );
+
+function random_plant() {
+	if ( empty( $_GET ) ) {
+		return;
+	}
+
+	if ( 'true' === $_GET['random'] ) {
+		$args = [
+			'post_type'      => 'page',
+			'posts_per_page' => -1,
+			'orderby'        => 'RAND',
+			'fields'         => 'ids',
+		];
+
+		$rand = new \WP_Query( $args );
+		$ids = $rand->posts;
+		shuffle( $ids );
+
+		wp_redirect( get_permalink( $ids[0] ) );
+	}
+}
+add_action( 'template_redirect', __NAMESPACE__ . '\random_plant' );
