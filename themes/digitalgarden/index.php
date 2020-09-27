@@ -30,9 +30,9 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
-            <div <?php post_class( 'plant' ); ?>>
+            <article <?php post_class( 'plant h-entry' ); ?>>
                 <h2><a href="<?php echo esc_attr( get_the_permalink() ); ?>"><?php the_title(); ?></a></h2>
-            </div>
+            </article>
 			<?php endwhile; ?>
 
 		<?php endif; ?>

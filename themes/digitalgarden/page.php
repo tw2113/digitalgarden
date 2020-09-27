@@ -31,19 +31,23 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
-            <div <?php post_class( 'plant' ); ?>>
+            <article <?php post_class( 'plant h-entry' ); ?>>
                 <h2><?php the_title(); ?></h2>
+                <div class="e-content">
                 <?php the_content(); ?>
 
                 <?php
                     printf(
-                        '<span class="page-modified">Last modified on %s at %s</span>',
+                        '<span class="page-modified dt-updated">Last modified on %s at %s</span>',
 						get_the_modified_date(),
 						get_the_modified_time()
                     );
+                    echo '<div class="p-category">';
                     echo wpautop( 'Categories: ' . get_the_category_list( ', ', '', get_the_ID() ) );
+                    echo '</div>';
                 ?>
-            </div>
+                </div>
+            </article>
 			<?php endwhile; ?>
 
 		<?php endif; ?>
