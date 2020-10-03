@@ -21,13 +21,21 @@ function set_default_category( $id, $post ) {
 }
 add_action( 'publish_post', __NAMESPACE__ . '\set_default_category', 10, 2 );
 
-function wpst_headcleanup() {
+function headcleanup() {
 	remove_action('wp_head', 'rsd_link');
 	remove_action('wp_head', 'wlwmanifest_link');
 	remove_action('wp_head', 'wp_generator');
 	remove_action('wp_head', 'adjacent_posts_rel_link_wp_head');
 }
-add_action( 'init', __NAMESPACE__ . '\wpst_headcleanup' );
+add_action( 'init', __NAMESPACE__ . '\headcleanup' );
 
 remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
 remove_action( 'wp_print_styles', 'print_emoji_styles' );
+
+function webmention_callback( $comment, $args, $depth ) {
+?>
+	<div class="other-plants">
+	<div class="comment-content plant"><?php comment_text(); ?></div>
+	</div>
+<?php
+}

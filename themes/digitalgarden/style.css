@@ -36,7 +36,8 @@ a {
 
 header,
 .garden-categories,
-#content {
+#content,
+.pages-linking-here {
     border: solid green 3px;
     border-radius: 10px;
     display: flex;
@@ -50,7 +51,9 @@ header {
     margin-bottom: 15px;
     padding: 10px;
 }
-
+#content {
+    margin-bottom: 15px;
+}
 .garden-categories {
     margin-bottom: 15px;
     padding: 10px;
@@ -107,4 +110,19 @@ header a {
     display: block;
     margin-top: 15px;
     padding-top: 15px;
+}
+
+.pages-linking-here {
+    display: block;
+    padding: 10px;
+}
+
+.pages-linking-here .comment-content {
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 0;
+    width: 33%;
+}
+.other-plants {
+    display: flex;
 }

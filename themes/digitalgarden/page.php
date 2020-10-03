@@ -53,6 +53,14 @@ get_header(); ?>
 		<?php endif; ?>
 
 	</main><!-- #content -->
+    <div class="pages-linking-here">
+    <h2>Pages linking here</h2>
+	<?php
+	if ( comments_open() || get_comments_number() ) :
+		comments_template();
+	endif;
+	?>
+    </div>
 </section><!-- #primary -->
 
 <?php get_footer(); ?>
