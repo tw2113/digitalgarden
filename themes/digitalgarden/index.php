@@ -25,7 +25,7 @@ get_header(); ?>
             ); ?>
         </ul>
     </div>
-	<main id="content" role="main">
+	<main id="content">
 
 		<?php if ( have_posts() ) : ?>
 
