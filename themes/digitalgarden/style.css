@@ -97,6 +97,7 @@ header a {
 .home .plant,
 .category .plant {
     border: solid rgb(0,0,0) 3px;
+    border-bottom-width: 6px;
     border-radius: 10px;
     text-align: center;
 }
