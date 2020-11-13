@@ -18,6 +18,9 @@ function pages_on_frontpage( $query ) {
 	$query->set(
 		'posts_per_page', -1
 	);
+	$query->set(
+		'orderby', 'modified'
+	);
 }
 add_action( 'pre_get_posts', __NAMESPACE__ . '\pages_on_frontpage' );
 
