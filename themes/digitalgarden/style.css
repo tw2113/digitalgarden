@@ -126,3 +126,8 @@ header a {
 .other-plants {
     display: flex;
 }
+
+.spotify-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
