@@ -6,7 +6,7 @@
   "require": {
     "wpackagist-plugin/custom-post-type-ui": "1.8.1",
     "wpackagist-plugin/webmention": "4.0.5",
-    "wpackagist-plugin/query-monitor": "^3.6"
+    "wpackagist-plugin/query-monitor": "^3.6.5"
   },
   "extra": {
     "installer-paths": {
