@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cac9e0a410f6c29170fde0bdd1e285ce",
+    "content-hash": "b7de5eac03a638be3dcc191ab2f8b9d0",
     "packages": [
         {
             "name": "composer/installers",
@@ -180,6 +180,24 @@
             "homepage": "https://wordpress.org/plugins/query-monitor/"
         },
         {
+            "name": "wpackagist-plugin/show-modified-date-in-admin-lists",
+            "version": "1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/show-modified-date-in-admin-lists/",
+                "reference": "tags/1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/show-modified-date-in-admin-lists.1.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/show-modified-date-in-admin-lists/"
+        },
+        {
             "name": "wpackagist-plugin/webmention",
             "version": "4.0.5",
             "source": {
@@ -206,5 +224,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }
