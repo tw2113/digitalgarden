@@ -16,7 +16,7 @@ get_header(); ?>
 
 <section id="primary">
 
-    <div class="garden-categories">
+    <nav class="garden-categories">
         <ul class="garden-list">
 			<?php wp_list_categories(
 				[
@@ -24,7 +24,7 @@ get_header(); ?>
 				]
 			); ?>
         </ul>
-    </div>
+    </nav>
 
 	<main id="content">
 
@@ -53,14 +53,14 @@ get_header(); ?>
 		<?php endif; ?>
 
 	</main><!-- #content -->
-    <div class="pages-linking-here">
+    <aside class="pages-linking-here">
     <h2>Pages linking here</h2>
 	<?php
 	if ( comments_open() || get_comments_number() ) :
 		comments_template();
 	endif;
 	?>
-    </div>
+    </aside>
 </section><!-- #primary -->
 
 <?php get_footer(); ?>
