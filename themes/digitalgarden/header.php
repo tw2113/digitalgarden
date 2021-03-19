@@ -11,7 +11,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<a href="<?php echo add_query_arg( 'random', 'true', home_url() ); ?>">Random area</a>
+<nav aria-label="Secondary"><a href="<?php echo add_query_arg( 'random', 'true', home_url() ); ?>">Random area</a></nav>
 <?php wp_body_open(); ?>
 <header>
     <h1><a href="/">Digital Garden</a></h1>

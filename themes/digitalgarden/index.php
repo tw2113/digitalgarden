@@ -16,7 +16,7 @@ get_header(); ?>
 
 <section id="primary">
 
-    <div class="garden-categories">
+    <nav class="garden-categories">
         <ul class="garden-list">
             <?php wp_list_categories(
                 [
@@ -24,7 +24,7 @@ get_header(); ?>
                 ]
             ); ?>
         </ul>
-    </div>
+    </nav>
 	<main id="content">
 
 		<?php if ( have_posts() ) : ?>
