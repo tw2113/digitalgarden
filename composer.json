@@ -5,7 +5,7 @@
   }],
   "require": {
     "wpackagist-plugin/webmention": "4.0.8",
-    "wpackagist-plugin/query-monitor": "3.9.0",
+    "wpackagist-plugin/query-monitor": "3.10.1",
     "wpackagist-plugin/show-modified-date-in-admin-lists": "1.4"
   },
   "extra": {
