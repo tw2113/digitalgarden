@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d60df6b245241c278d7a41f885c7da70",
+    "content-hash": "5cc615c54416d628bac27067447a122e",
     "packages": [
         {
             "name": "composer/installers",
@@ -153,15 +153,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.12.3",
+            "version": "3.13.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.12.3"
+                "reference": "tags/3.13.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.12.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.13.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -189,15 +189,15 @@
         },
         {
             "name": "wpackagist-plugin/webmention",
-            "version": "5.0.0",
+            "version": "5.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/webmention/",
-                "reference": "tags/5.0.0"
+                "reference": "tags/5.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/webmention.5.0.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/webmention.5.1.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"

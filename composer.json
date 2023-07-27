@@ -4,8 +4,8 @@
     "url": "https://wpackagist.org/"
   }],
   "require": {
-    "wpackagist-plugin/webmention": "5.0.0",
-    "wpackagist-plugin/query-monitor": "3.12.3",
+    "wpackagist-plugin/webmention": "5.1.1",
+    "wpackagist-plugin/query-monitor": "3.13.1",
     "wpackagist-plugin/show-modified-date-in-admin-lists": "1.4"
   },
   "extra": {
